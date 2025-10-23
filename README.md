@@ -26,7 +26,7 @@ A data-driven predictive model allows institutions to shift from **reactive** to
 - Explore and preprocess student data across three stages of the academic journey  
 - Engineer meaningful features (demographics, engagement, performance)  
 - Train and evaluate supervised models (**XGBoost** and **Neural Networks**)  
-- Optimise for **recall** (minimising false negatives — ensuring at-risk students are flagged)  
+- Optimise for **recall** (minimising false negatives, ensuring at-risk students are flagged)  
 - Interpret model outputs to provide actionable insights for retention strategy  
 
 ---
@@ -34,11 +34,11 @@ A data-driven predictive model allows institutions to shift from **reactive** to
 ## Datasets  
 The analysis uses three datasets representing different stages of a student’s academic journey:  
 
-1. **Stage 1 – Early**  
+1. **Stage 1: Early**  
    - Demographic & background features only  
-2. **Stage 2 – Mid**  
+2. **Stage 2: Mid**  
    - Stage 1 features + engagement data (`AuthorisedAbsenceCount`, `UnauthorisedAbsenceCount`)  
-3. **Stage 3 – Late**  
+3. **Stage 3: Late**  
    - Stage 1 & 2 features + academic performance (`AssessedModules`, `FailedModules`, `PassedModules`)  
 
 ---
