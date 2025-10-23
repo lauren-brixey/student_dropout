@@ -107,7 +107,7 @@ The analysis uses three datasets representing different stages of a student’s 
 
 ## Repository Structure  
 ```
-├── notebooks/ # Jupyter notebooks for EDA, modelling, evaluation
-├── reports/ # Final report, figures, results
+├── student_dropout.ipynb # Jupyter notebook with full analysis
+├── student_dropout.pdf # Stakeholder report 
 ├── README.md # Project documentation
 ```
